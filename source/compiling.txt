@@ -1,0 +1,6 @@
+
+Operation Kyoroshiro should be completely cross-platform.
+
+To compile this from source, you are going to need to link with SDL, SDL_mixer, SDL_image, and SDL_gfx.
+
+If there is something in the source that doesn't compile on a particular platform, please alert me and I will attempt to fix it.

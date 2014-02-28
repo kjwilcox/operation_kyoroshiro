@@ -1,0 +1,58 @@
+; this is the main config file for operation kyoroshiro
+; feel free to mess with the options
+; however, if you are unsure of what an option is,
+;  you probably don't want to tweak it
+
+; i highly reccomend playing in fullscreen mode at
+;  the highest resolution your monitor will support
+
+[screen]
+; these are general gameplay settings
+screen_width = 1024 ; game window width
+screen_height = 768 ; game window height
+screen_bpp = 32 ; game window bits per pixel (don't change unless nessecary)
+fps_cap = 60 ; fps regulator (don't change unless nessecary)
+software_surface = True ; switch between software and hardware surfaces
+fullscreen = False ; run the game in fullscreen
+
+[images]
+; the images the game will load
+images = 7 ; don't change this
+big_asteroid = images/bigroid.png
+medium_asteroid = images/medroid.png
+small_asteroid = images/smallroid.png
+ship = images/ship.png
+bullet = images/bullet.png
+money = images/money.png
+title_screen = images/menu.png
+
+[sounds]
+; the sounds the game will load
+sounds = 8 ; don't change this
+asteroid_break = sounds/break.wav
+ship_die = sounds/die.wav
+ship_engine = sounds/engine2.wav
+ship_hit = sounds/hit.wav
+money_collect = sounds/money.wav
+ship_shot = sounds/shot.wav
+ship_warp = sounds/warp.wav
+money_break = sounds/shatter.wav
+
+[constants]
+; it's easy to cheat by messing with these values
+; no one will ever know that you cheated... but you
+max_asteroids = 20 ; max asteroids that will spawn per level
+big_asteroid_size = 28
+medium_asteroid_size = 18
+small_asteroid_size = 9
+bullet_size = 3
+money_size = 8
+ship_size = 22
+money_chance = 7
+
+[debug]
+; these options are probably useless to the player
+; they just provide some options for developers
+; if you are unsure about these options, just don't mess with them
+hitbox = False ; renders collision circles
+debug_mode = False

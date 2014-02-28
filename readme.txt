@@ -1,8 +1,6 @@
-operation_kyoroshiro
-====================
 
-Another entry into the asteroid shooting genre. 
-This was a personal project in freshman year of college (2008).
+Operation Kyoroshiro
+---
 
 Plot:
 In the year 2010, in a part of space were there is no law. 
@@ -15,10 +13,11 @@ to clear the sector.
 
 About:
 This is version 0.5 of Operation Kyoroshiro.
+Please keep in mind that this is a beta version meant for testing purposes only.
 If your computer explodes, tough luck.
 
 Credits:
-The programming was carried out by Kyle Wilcox.
+The programming was carried out in 2008 by Kyle Wilcox.
 The fantastic artwork was created by Carl Kelly.
 The sounds were made by Kyle Wilcox.
 
@@ -27,14 +26,14 @@ Controls:
  Left/right arrow: rotate ship
        Down arrow: warp ship
         Space bar: fire guns
-            Pause: take a wild guess :)
+            Pause: take a wild guess
            Escape: exit program
 
 Configuration:
 See settings.ini for various options you can configure.
 
 Notices:
-Please see LICENSE for licensing information.
+Please see license.txt for licensing information.
 
 
 Enjoy!
